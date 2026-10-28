@@ -1,7 +1,5 @@
 # Pathway to Chip Design
 
-Welcome to the Bulldog Silicon Initiative!
-
 **Bulldog Silicon** is a student-led program under the IEEE student branch at Alabama A&M University. We help students develop skills in VLSI and integrated circuit design through hands-on labs, preparing them for careers in chip design.
 
 ## Mission
