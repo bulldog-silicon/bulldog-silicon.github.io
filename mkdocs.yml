@@ -1,0 +1,39 @@
+
+site_name: Bulldog Silicon
+site_description: Student-led Chip Design Initiative at Alabama A&M University IEEE Student Branch
+site_url: https://bulldog-silicon.github.io/
+
+theme:
+  name: material
+  language: en
+  logo: assets/ieee-logo.png
+  favicon: assets/ieee-logo.png
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+
+extra_css:
+  - assets/custom.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Labs:
+      - Overview: labs/index.md
+      - 'Lab 0: CMOS Logic Fundamentals': labs/lab0.md
+      - 'Lab 1: Ring Oscillators': labs/lab1.md
+      - 'Lab 2: 4-Bit ALU': labs/lab2.md
