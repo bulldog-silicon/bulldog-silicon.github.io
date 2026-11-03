@@ -34,6 +34,8 @@ nav:
   - Getting Started: getting-started.md
   - Labs:
       - Overview: labs/index.md
-      - 'Lab 0: CMOS Logic Fundamentals': labs/lab0.md
+      - 'Lab 0: CMOS Logic Fundamentals': 
+        - Overview: labs/lab0.md
+        - 'CMOS Inverter': labs/lab0/cmos-inverter.md
       - 'Lab 1: Ring Oscillators': labs/lab1.md
       - 'Lab 2: 4-Bit ALU': labs/lab2.md
