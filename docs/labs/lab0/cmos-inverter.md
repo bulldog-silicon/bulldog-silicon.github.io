@@ -121,7 +121,7 @@ This generates a repeating input signal between 0 V and 1.8 V.
 | PW | 5 ns | Pulse width |
 | PER | 10 ns | Period |
 
-!!! warning "Xschem property formatting"
+NOTE: "Xschem property formatting"
     Keep the quotation marks around the complete PULSE expression. 
 
 ### Step 8: Connect and Label the Nets
