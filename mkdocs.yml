@@ -13,10 +13,12 @@ theme:
       primary: custom
       accent: custom
   features:
-    - navigation.tabs
-    - navigation.sections
-    - content.code.copy
-    - search.suggest
+  - navigation.tabs
+  - navigation.sections
+  - navigation.instant
+  - navigation.instant.prefetch
+  - content.code.copy
+  - search.suggest
 
 extra_css:
   - assets/custom.css
