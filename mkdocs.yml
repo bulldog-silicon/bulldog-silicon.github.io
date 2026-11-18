@@ -13,12 +13,12 @@ theme:
       primary: custom
       accent: custom
   features:
-  - navigation.tabs
-  - navigation.sections
-  - navigation.instant
-  - navigation.instant.prefetch
-  - content.code.copy
-  - search.suggest
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - navigation.instant.prefetch
+    - content.code.copy
+    - search.suggest
 
 extra_css:
   - assets/custom.css
@@ -41,14 +41,17 @@ nav:
   - Getting Started: getting-started.md
   - Labs:
       - Overview: labs/index.md
-      - 'Lab 0: CMOS Logic Fundamentals': 
-        - Overview: labs/lab0.md
-        - 'CMOS Inverter': labs/lab0/cmos-inverter.md
-        - 'CMOS NAND Gate': labs/lab0/cmos-nand.md
+
+      - 'Lab 0: CMOS Logic Fundamentals':
+          - Overview: labs/lab0.md
+          - 'CMOS Inverter': labs/lab0/cmos-inverter.md
+          - 'CMOS NAND Gate': labs/lab0/cmos-nand.md
+
       - 'Lab 1: Ring Oscillators':
-        - Overview: labs/lab1.md
-        - 'Inverter Ring Oscillator': labs/lab1/inverter-ring-oscillator.md
-        - 'NAND Ring Oscillator': labs/lab1/nand-ring-oscillator.md
+          - Overview: labs/lab1.md
+          - 'Inverter Ring Oscillator': labs/lab1/inverter-ring-oscillator.md
+          - 'NAND Ring Oscillator': labs/lab1/nand-ring-oscillator.md
+
       - 'Lab 2: 4-Bit ALU':
-        - Overview: labs/lab2.md
-        - '4-Bit ALU (RTL to GDSII)': labs/lab3/4bit-alu.md
+          - Overview: labs/lab2.md
+          - '4-Bit ALU (RTL to GDSII)': labs/lab3/4bit-alu.md
