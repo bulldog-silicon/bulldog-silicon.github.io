@@ -21,6 +21,9 @@ theme:
 extra_css:
   - assets/custom.css
 
+extra_javascript:
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
 plugins:
   - search
 
@@ -28,6 +31,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
 
 nav:
   - Home: index.md
@@ -37,7 +42,11 @@ nav:
       - 'Lab 0: CMOS Logic Fundamentals': 
         - Overview: labs/lab0.md
         - 'CMOS Inverter': labs/lab0/cmos-inverter.md
-      - 'Lab 1: Ring Oscillators': labs/lab1.md
+        - 'CMOS NAND Gate': labs/lab0/cmos-nand.md
+      - 'Lab 1: Ring Oscillators':
+        - Overview: labs/lab1.md
+        - 'Inverter Ring Oscillator': labs/lab1/inverter-ring-oscillator.md
+        - 'NAND Ring Oscillator': labs/lab1/nand-ring-oscillator.md
       - 'Lab 2: 4-Bit ALU':
         - Overview: labs/lab2.md
         - '4-Bit ALU (RTL to GDSII)': labs/lab3/4bit-alu.md
