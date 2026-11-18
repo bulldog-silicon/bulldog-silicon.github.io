@@ -8,20 +8,26 @@ Get familiar with the IC design flow by designing and verifying basic CMOS circu
 
 1. CMOS inverter
 2. NAND and NOR gates
-3. Half adder
-4. Full adder
-5. Transistor sizing
-6. Schematic → simulation → layout → DRC/LVS
+3. Transistor sizing
+4. Schematic → simulation → layout → DRC/LVS
+
+
+## CMOS NAND Gate
+
+Design and simulate a two-input CMOS NAND gate using transistor-level schematics in Xschem.
+
+[**View CMOS NAND Gate Tutorial**](lab0/cmos-nand.md)
+
+
+## CMOS Inverter Gate
+
+Design and simulate a two-input CMOS NAND gate using transistor-level schematics in Xschem.
+
+[**View CMOS Inverter Gate Tutorial**](lab0/cmos-inverter.md)
+
 
 ### Background
 
 Review the operation of NMOS and PMOS transistors and complementary pull-up/pull-down networks.
 
-### Design and verification
-
-For each circuit, prepare a schematic and test its intended logic behavior in simulation. Where applicable, compare behavior for different transistor sizes.
-
-### Physical design
-
-Create a layout and perform DRC/LVS using the selected toolchain.
 

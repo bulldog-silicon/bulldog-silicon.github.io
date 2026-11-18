@@ -1,16 +1,20 @@
+
 # Lab 1: Ring Oscillators
 
 ## Goal
 
-Apply CMOS gate fundamentals to dynamic timing circuits.
+Apply CMOS gate fundamentals to design and simulate ring oscillators using Xschem, SKY130, and NGspice.
 
 ## Projects
 
-1. Three-stage ring oscillator
-2. Five-stage ring oscillator
-3. NAND-based or inverter-based implementation
-4. Optional enable control
+### 1. CMOS Inverter Ring Oscillator
 
-## Simulation Performance Metrics
+Design and simulate a three-stage ring oscillator using CMOS inverters connected in a feedback loop.
 
-Compare oscillator waveforms and oscillation frequency as the number of stages changes. 
+[**View Inverter Ring Oscillator Tutorial**](lab1/inverter-ring-oscillator.md)
+
+### 2. NAND Ring Oscillator
+
+Design and simulate a three-stage ring oscillator using CMOS NAND gates configured as inverters.
+
+[**View NAND Ring Oscillator Tutorial**](lab1/nand-ring-oscillator.md)
